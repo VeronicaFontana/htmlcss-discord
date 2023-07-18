@@ -4,22 +4,41 @@
   box-sizing: border-box;
 }
 
+.button{
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 20px;
+}
+
 /* HEADER */
 .top-menu{
-  background-color: beige;
-  padding: 10px 0;
+  background-color: blue;
+  padding: 20px 0;
 }
 
 .box-menu{
-  background-color: yellow;
+  background-color: blue;
   max-width: 1200px;
   margin: 0 auto;
   height: 30px;
   padding: 0 10px;
-  border: 1px solid black;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+}
+
+li{
+  padding: 0 20px;
+  color: white;
+}
+
+.box-menu span{
+  background-color: white;
 }
 
 .jumbotron{
@@ -112,7 +131,7 @@
   align-items: center;
 }
 
-.bottom-logo, .button{
+.bottom-logo, .bottone{
   background-color: pink;
   border: 2px dashed black;
   padding: 10px;
