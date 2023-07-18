@@ -31,12 +31,12 @@ h2{
   align-items: center;
 }
 
-ul{
+.box-menu ul{
   list-style-type: none;
   display: flex;
 }
 
-li{
+.box-menu li{
   padding: 0 20px;
   color: white;
 }
@@ -160,7 +160,6 @@ h1{
 }
 
 .info-block{
-  border-bottom: 1px solid grey;
   padding: 20px 0;
 }
 
@@ -170,18 +169,40 @@ h1{
   width: 98%;
   margin: 0px auto; 
   display: flex;
+  justify-content: center;
 }
 
 .social{
-  background-color: pink;
-  border: 2px dashed rgb(255, 255, 255);
-  flex-grow: 2;
+  width: 25%;
 }
 
 .elenco{
-  background-color: rgb(128, 128, 201);
-  border: 2px dashed rgb(255, 255, 255);
-  flex-grow: 1;
+  width: 15%;
+}
+
+h3{
+  font-size: 2em;
+}
+
+h3, #little-title{
+  color: #4771db;
+}
+
+.language{
+  padding: 10px 0;
+}
+
+.icons, .language{
+  color: white;
+}
+
+.elenco ul{
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.elenco li{
+  color: white;
 }
 
 .fondo-box{
@@ -201,6 +222,8 @@ h1{
   border: 2px dashed black;
   padding: 10px;
 }
+
+
 
 
 
