@@ -12,12 +12,12 @@
 
 /* HEADER */
 .top-menu{
-  background-color: blue;
+  background-color: #255EE9;
   padding: 20px 0;
 }
 
 .box-menu{
-  background-color: blue;
+  background-color: #255EE9;
   max-width: 1200px;
   margin: 0 auto;
   height: 30px;
@@ -42,17 +42,49 @@ li{
 }
 
 .jumbotron{
-  background-color: blue;
-  padding: 20px 0;
+  background-image: url("../img/img/jumbo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 120px 0;
 }
 
-.box-top-image{
-  background-color: rgb(221, 123, 139);
-  max-width: 600px;
+.top-box{
+  max-width: 800px;
   width: 90%;
-  height: 300px;
   margin: 0 auto;
-  border: 2px dashed black;
+}
+
+.top-text{
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-size: 3em;
+  padding: 20px;
+}
+
+.top-text p, .top-button span{
+  font-size: 1.3em;
+}
+
+.top-button{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.top-button span{
+  margin: 0 10px;
+}
+
+.download-button{
+  background-color: white;
+}
+
+.open-button{
+  color: white;
+  background-color: rgba(27, 26, 26);
 }
 
 /* MAIN */
