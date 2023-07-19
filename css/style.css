@@ -204,7 +204,7 @@ h3{
   font-size: 2em;
 }
 
-h3, #little-title{
+h3, .elenco ul .little-title{
   color: #4771db;
 }
 
